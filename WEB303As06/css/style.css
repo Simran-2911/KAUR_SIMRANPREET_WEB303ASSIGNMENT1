@@ -1,0 +1,103 @@
+/*
+Assignment 6
+Name: Simranpreet Kaur
+Student id: 0823727
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: cadetblue;
+    font-size: 50px;
+
+}
+.accordion, .menu {
+    margin: 0;
+    padding: 0;
+    background-color: #7bc8ca;
+    color: blue;
+    overflow: auto;}
+  
+  .accordion li {
+    padding: 0;
+    list-style-type: none;}
+  
+  .accordion-control {
+    display: block;
+    padding: 0.6em 0.5em 0.6em 0.8em;
+    width: 100%;
+    background-color: #09026b;
+    color: white;
+    margin: 0;
+    border-top: 1px solid #0973ec;}
+  
+  .accordion-panel {
+    display: none;}
+  
+  .accordion-panel p {
+    margin: 20px;}
+
+    .tab-list {
+        margin: 0;
+        padding: 0;}
+      
+      .tab-list li {
+        display: inline-block;
+        background-color: #0667a8;
+        border-bottom: 3px solid #055b70;
+        font-family:'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        list-style-type: none;}
+      
+      .tab-list li a {
+        color: white;
+        display: block;
+        padding: 3px 10px 3px 10px;}
+      
+      
+      /********** HOVER STATES **********/
+      .tab-list li.active, .tab-list li.hover {
+        background-color: white;
+        border-bottom: 3px solid white;}
+      
+      .tab-list li.active a, .tab-list li a:hover {
+        background-color: white;
+        color: #666;}
+      
+      
+      /********** PANELS **********/
+      .tab-panel {
+        display: none;
+        background-color: white;
+        color: #5304bb;
+        overflow: auto;
+        min-height: 130px;}
+      
+      .tab-panel.active {
+        display: block;}
+      
+      .tab-panel p {
+        margin: 20px;}
+        
+        .tab-panel img {
+            display: block;
+            clear: left;
+            width:auto;
+        height:50%}
+        
+
+footer{
+    background-color: aqua;
+}
+footer,p {
+    font-size: large;
+    color: #09026b;
+}
+
+/* Reference
+       Content: https://en.wikipedia.org/wiki/B._R._Ambedkar
+       images: https://www.bing.com/images/search?view=detailV2&ccid=Dy6kcB3n&id=C000537ECD2D30CC7551F23E7AD537E16A9EC131&thid=OIP.Dy6kcB3nzgllUyDl3LyPnwHaJo&mediaurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f86%2f21%2ff4%2f8621f4eb449f18fdc2bc33fd19fc9825.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.0f2ea4701de7ce09655320e5dcbc8f9f%3frik%3dMcGeauE31Xo%252b8g%26pid%3dImgRaw%26r%3d0&exph=1404&expw=1080&q=br+ambedkar+movie&simid=608021516913958757&FORM=IRPRST&ck=98053E370FA86130F297306D45928C15&selectedIndex=7&ajaxhist=0&ajaxserp=0
+       https://www.bing.com/images/search?view=detailV2&ccid=xWE1kCA7&id=D02AD414613C02002016A26B256F28426A41AE4D&thid=OIP.xWE1kCA7ffh7GZB-iajptQHaJI&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f2113078.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.c5613590203b7df87b19907e89a8e9b5%3frik%3dTa5BakIobyVrog%26pid%3dImgRaw%26r%3d0&exph=1519&expw=1231&q=br+ambedkar+movie&simid=608034633759613805&FORM=IRPRST&ck=74C4E2DA25F671304DA907BAD3E79B20&selectedIndex=49&ajaxhist=0&ajaxserp=0
+
+       */
