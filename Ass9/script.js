@@ -71,21 +71,7 @@ $(document).ready(function() {
         displayCharacters(characters);
         $("th a").find("span").remove(); // Remove chevron icons
       }
-        function search_table(value){  
-              $('#characterTable tr').each(function(){  
-                   var found = 'false';  
-                   $(this).each(function(){  
-                        if($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0)  
-                        {  
-                             found = 'true';  
-                             $(this).css('background-color', 'darkgreen'); 
-                         $(this).css('color', 'white');
-                        }  
-                        else{
-                            $(this).css('background-color', 'darkgreen'); 
-                         $(this).css('color', 'black');
-                        }
-                   });  
+       
                   
     });
   });
