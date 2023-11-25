@@ -9,6 +9,17 @@ $.ajax({
       }
   },
 });
+  function updateChevronIcon(column) {
+    $("th a").find("span").remove();
+
+    const icon = ascending ? "&#x25B2;" : "&#x25BC;";
+    $(`th a[data-column="${column}"]`).append(`<span>${icon}</span>`);
+
+    // Remove other chevrons
+    $("th a").not(`[data-column="${column}"]`).each(function() {
+      $(this).find("span").remove();
+    });
+  }
          $('#search').keyup(function(){  
               search_table($(this).val());  
          });  
