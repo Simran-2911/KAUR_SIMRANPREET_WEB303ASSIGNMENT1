@@ -1,0 +1,51 @@
+[{
+    "Charactername":"Wednesday Addams",
+    "Role":"Main Chatactor in Series",
+    "firstname":"Jenna",
+    "lastname":"Ortega",
+    "dateofbirth": "2003-1-21"
+   },
+   {
+   "Charactername":"Enid Sinclair",
+   "Role":"Wednesday's Roommate",
+   "firstname":"Emma",
+   "lastname":"Myers",
+   "dateofbirth": "2003-11-21"
+  },
+  {
+   "Charactername":"Xavier Thorpe",
+   "Role":"Wednesday's Classmate",
+   "firstname":"Percy",
+   "lastname":"White",
+   "dateofbirth": "2003-10-02"
+   },
+{
+   "Charactername":"Morticia Addams",
+   "Role":"Wednesday's Mother",
+   "firstname":"Catherine",
+   "lastname":"Zeta-Jones",
+   "dateofbirth": "1983-11-01"
+   },
+{
+   "Charactername":"Gomez Addams",
+   "Role":"Wednesday's Father",
+   "firstname":"Luis",
+   "lastname":"Guzman",
+   "dateofbirth": "1980-12-23"
+   },
+{
+   "Charactername":"Pugsley Addams",
+   "Role":"Wednesday's Brother",
+   "firstname":"Isaac",
+   "lastname":"Ordonez",
+   "dateofbirth": "2005-11-21"
+   },
+{
+   "Charactername":"Eugene",
+   "Role":"Wednesday's Bestfriend",
+   "firstname":"Moosa",
+   "lastname":"Mostafa", 
+   "dateofbirth": "2003-11-21"
+   }
+
+]

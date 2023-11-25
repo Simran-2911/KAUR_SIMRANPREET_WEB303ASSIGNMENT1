@@ -1,0 +1,42 @@
+table {
+	margin: 0 auto;
+	font-size: large;
+	border: 1px solid black;
+}
+
+h1 {
+	text-align: center;
+	color:violet;
+	font-size: xx-large;
+	font-family:'Times New Roman', Times, serif;
+}
+
+td {
+	background-color:darkgreen;
+	border: 1px solid black;
+}
+
+th,
+td {
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+td {
+	font-weight: lighter;
+}
+
+#first{
+
+position: absolute;
+margin-top: 400px;
+}
+
+  #second{
+
+position: absolute;
+margin-top: 400px;
+margin-left: 50px;
+}
