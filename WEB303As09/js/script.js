@@ -38,7 +38,18 @@ $.ajax({
                          $(this).css('color', 'black');
                         }
                    });  
-                  
+                      let clickCount = 0;
+    $("th a").on("click", function() {
+      clickCount++;
+      if (clickCount === 3) {
+        characters = [...originalOrder];
+        sortColumn = "";
+        ascending = true;
+        clickCount = 0;
+        displayCharacters(characters);
+        $("th a").find("span").remove(); // Remove chevron icons
+      }
+    });
                      
               });  
          }
